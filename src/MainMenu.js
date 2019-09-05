@@ -11,37 +11,36 @@ const MainMenu = (props) => {
   }
 
   return (
-    <div className='page-root'>
-      <div className='main-menu'>
+    <div className='intro'>
+      <div className='intro-text'>
         <h1>Salla Tero-Anandamurthy</h1>
+        <p>Web developer / coding enthusiast</p>
         <div className='main-menu-items'>
-          <div className='circle-container'>
-            <div className='circle-main' onClick={() => props.setPage(1)}>
-              <div className='circle-text-container'>
-                <div className='circle-text' id={classFor(1)}>
-                  Who <br/>am I?
-                </div>
-              </div>
-            </div>
+          <div className='button' id={classFor(1)} 
+            onClick={() => props.setPage(1)}>
+            About me
           </div>
-          <div className='circle-container'>
-            <div className='circle-main' onClick={() => props.setPage(2)}>
-              <div className='circle-text-container'>
-                <div className='circle-text' id={classFor(2)}>
-                  Where have I been?
-                </div>
-              </div>
-            </div>
+          <div className='button' id={classFor(2)} 
+            onClick={() => props.setPage(2)}>
+            Portfolio
           </div>
-          <div className='circle-container'>
-            <div className='circle-main' onClick={() => props.setPage(3)}>
-              <div className='circle-text-container'>
-                <div className='circle-text' id={classFor(3)}>
-                  Where am I going?
-                </div>
-              </div>
-            </div>
+          <div className='button' id={classFor(3)} 
+            onClick={() => props.setPage(3)}>
+            Experience
           </div>
+          <div className='button' id={classFor(4)} 
+            onClick={() => props.setPage(4)}>
+            Skills
+          </div>
+          <div className='button' id={classFor(5)} 
+            onClick={() => props.setPage(5)}>
+            Education
+          </div>
+          <div className='button' id={classFor(6)} 
+            onClick={() => props.setPage(6)}>
+            Contact
+          </div>
+          
         </div>
       </div>     
     </div>
