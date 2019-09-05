@@ -1,33 +1,95 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #555;
+  font-weight: 400;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.main-menu {
+  width: 50%;
+  padding: 20px 40px 20px 40px;
+  margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Controls the menu circles collection */
+.main-menu-items {
+  width: 100%;
+  margin: auto;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
+/* Controls the size of the circle */
+.circle-container {
+  width: 120px;
+  height: 120px;
+  margin: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Draws the actual circle */
+.circle-main {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: 0;
+  padding: 0;
 }
+
+/* Constrains text area to within the circle */
+.circle-text-container {
+  /* area constrains */
+  width: 70%;
+  height: 70%;
+  max-width: 70%;
+  max-height: 70%;
+  margin: 0 auto;
+  padding: 0;
+
+  /* centers the text area */
+  position: relative;
+  top: 15%; 
+
+  transform-style: preserve-3d;
+}
+
+/* The actual text within the circle, vertically aligned */
+.circle-text {
+  font: 17px;
+  font-weight: 700;
+  text-align: center;
+
+  /* vertical centering */
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Styling of the active menu item */
+#active-item {
+  color: blue;
+}
+
+/* Section page - content that comes under the menu */
+.section-page {
+  width: 50%;
+  padding: 20px 40px 20px 40px;
+  margin: auto;
+  color: grey;
+}
+
+/* Controls the introduction page content area, under the lead text */
+.intro-content-container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
