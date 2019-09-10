@@ -17,13 +17,14 @@ const Portfolio = (props) => {
   return (
     <div id='portfolio'>
       <div className='lead-text'>
-        <p>Here are some of my apps that I have built with modern web technologies. 
+        <div className='experience-heading tracking-in-expand'>Modern Web Development</div>
+        <p className='slide-in-top port'>Here are some of my apps that I have built with modern web technologies. 
           Clicking an app takes you to the respective Github repository, where you can 
           see the code as well as get the link to the live app. </p>
         <p></p>
       </div>
       <div className='portfolio-container'>
-        <div className='hover-item'>
+        <div className='fade-in hover-item'>
           <div className='hover-text'>
             <h4>Library app</h4>
             <p className='hover-text-p'>React, Node.js,</p>
@@ -33,7 +34,7 @@ const Portfolio = (props) => {
             <img src={small_1} className='image-responsive' alt='Library app' /> 
           </a>
         </div>
-        <div className='hover-item'>
+        <div className='fade-in hover-item'>
           <div className='hover-text'>
               <h4>Bloglist app</h4>
               <p className='hover-text-p'>React, Node.js, Express</p>
@@ -45,7 +46,7 @@ const Portfolio = (props) => {
         </div>
       </div>
       <div className='portfolio-container'>
-        <div className='hover-item'>
+        <div className='fade-in hover-item'>
           <div className='hover-text'>
             <h4>Puhelinluettelo</h4>
             <p className='hover-text-p'>React, Node.js, JavaScript</p>
