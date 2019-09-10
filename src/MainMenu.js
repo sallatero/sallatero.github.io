@@ -8,8 +8,8 @@ const MainMenu = (props) => {
       <div className='canvas-text-area'>
         <div className='landing-page-text'>
           <div className='heading-text'>
-            <h1>Salla Tero-Anandamurthy</h1>
-            <p>Web developer / coding enthusiast</p>
+            <h1><span>Salla</span> Tero-Anandamurthy</h1>
+            <p className='typewriter'>Web developer / coding enthusiast</p>
           </div>
           <MenuItems setPage={props.setPage}/>
         </div>

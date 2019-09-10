@@ -9,7 +9,7 @@ const SmallMenu = (props) => {
       <div className='canvas-text-area'>
         <div className='content-page-text'>
           <div className='heading-text-small'>
-            <h1>Salla Tero-Anandamurthy</h1>
+            <h1><span>Salla</span> Tero-Anandamurthy</h1>
           </div>
           <MenuItems page={props.page} setPage={props.setPage}/>
           <SectionPage page={props.page}/>
