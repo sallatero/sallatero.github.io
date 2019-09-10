@@ -38,7 +38,7 @@ span {
   color: #39ac73;
 }
 .heading-text {
-  width: 62%;
+  width: 385px;
   box-sizing: border-box;
   float: left;
   position: relative;
@@ -216,17 +216,19 @@ span {
   margin: 10px 0 20px 0;
 }
 /* Controls the main menu */
-.main-menu { /* ?? */
+/*
+.main-menu { 
   width: 50%;
   padding: 20px 40px 20px 40px;
   margin: auto;
-}
+}*/
 /* Menu items on landing page */ 
 .landing-page-text .menu-items {
-  width: 80%;
+  width: 85%;
+  max-width: 530px;
   margin: 5% 0%;
+  white-space: nowrap; /* Keep About me on one line */ 
   display: flex;
-  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -238,7 +240,8 @@ span {
 	background-color: transparent;
 	border: 1.5px solid #444;
 	padding: 14px 20px;
-	margin: 0;
+  margin: 0;
+  min-width: 95px;
   font-size: 14px;
   font-weight: normal;
 	border-radius: 0;
@@ -246,8 +249,11 @@ span {
 	margin-right: 30px;
   transition: all 0.5s;
   display: inline-block;
+  /*
   flex-grow: 1;
   flex-basis: 0;
+  */
+  flex: 1;
 }
 
 
@@ -439,7 +445,7 @@ span {
   line-height: 1.2rem;
 }
 
-.slide-in-top.exp, .slide-in-top.port {
+.slide-in-top.exp, .slide-in-top.port, .slide-in-top.skil {
 	-webkit-animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
 	        animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
 }
@@ -486,4 +492,22 @@ span {
   100% {
     opacity: 1;
   }
+}
+
+/* SKILLS */
+#skills {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aqua;
+}
+/*.skills-text {
+  padding-top: 2%;
+  line-height: 1.5rem;
+}*/
+.skills-heading {
+  font-size: 1.5rem;
+}
+.skills-text li {
+  font-size: 1rem; 
+  line-height: 1.2rem;
 }
