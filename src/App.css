@@ -424,12 +424,12 @@ ul {
 .experience-subheading {
   font-size: 1rem;
 }
-.experience-text li, .skills-text li {
+.experience-text li, .skills-text li, .education-text li {
   font-size: 1rem; 
   line-height: 1.2rem;
 }
 
-.slide-in-top.exp, .slide-in-top.port, .slide-in-top.skil {
+.slide-in-top.exp, .slide-in-top.port, .slide-in-top.skil, .slide-in-top.edu {
 	-webkit-animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
 	        animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
 }
@@ -495,4 +495,16 @@ ul {
 .skills-text li {
   font-size: 1rem; 
   line-height: 1.2rem;
+}
+
+/* EDUCATION */
+.education-text {
+  padding-top: 2%;
+  line-height: 1.5rem;
+}
+.education-heading {
+  font-size: 1.5rem;
+}
+.education-subheading {
+  font-size: 1rem;
 }
