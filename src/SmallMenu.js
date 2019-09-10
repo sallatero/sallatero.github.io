@@ -1,6 +1,7 @@
 import React from 'react'
+import SectionPage from './SectionPage'
 
-const MainMenu = (props) => {
+const SmallMenu = (props) => {
   
   const classFor = (pageNr) => {
     if (props.page === pageNr) {
@@ -13,12 +14,11 @@ const MainMenu = (props) => {
   return (
     <div className='canvas'>
       <div className='canvas-text-area'>
-        <div className='landing-page-text'>
-          <div className='heading-text'>
+        <div className='content-page-text'>
+          <div className='heading-text-small'>
             <h1>Salla Tero-Anandamurthy</h1>
-            <p>Web developer / coding enthusiast</p>
           </div>
-          <div className='menu-items'>
+          <div className='menu-items-small'>
             <div className='button' id={classFor(1)} 
               onClick={() => props.setPage(1)}>
               About me
@@ -44,11 +44,11 @@ const MainMenu = (props) => {
               Contact
             </div>
           </div>
+          <SectionPage page={props.page}/>
         </div>
       </div>
     </div>
   )
-
 }
 
-export default MainMenu
+export default SmallMenu

@@ -7,30 +7,38 @@ body {
   min-height: 700px;
   padding: 0;
   margin: 0px;
-  background: linear-gradient(to right, rgba(255,255,255,0.5) 0%, rgba(213,218,222,0.5) 100%), url(./images/BG_img_3a.jpg) no-repeat right top;
-	background-color: #e5e5e5;
-	-webkit-background-size: cover;
+  background-color: white;
+  -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
   -o-background-size: cover;
 }
-
-.intro {
+/* Background canvas for the site */
+.canvas {
+  width: 100%;
+  height: 100%;
+  min-height: 700px;
+  background: linear-gradient(to right, rgba(255,255,255,0.6) 10%, 30%, rgba(213,218,222,0.3) 90%), url(./images/BG_img_3a.jpg) no-repeat right top;
   display: table;
 }
+/* Area for text content on the site */
+.canvas-text-area {
+  width: 60%;
+}
 
-.intro-text {
+/* LANDING PAGE */
+.landing-page-text {
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-right: 60px;
+ /* padding-right: 60px; */
   padding-left: 80px;
+}
+.heading-text {
   box-sizing: border-box;
-  width: 67%;
   float: left;
   position: relative;
 }
-
-.intro-text h1 {
+.heading-text h1 {
   color: #333;
   font-size: 44px;
   font-family: inherit;
@@ -40,8 +48,7 @@ body {
   margin-bottom: 10px;
 	text-transform: uppercase;
 }
-
-.intro-text p {
+.heading-text p {
   box-sizing: border-box;
   color: #444;
   font-family: 'Roboto', sans-serif;
@@ -49,25 +56,28 @@ body {
 	font-weight: 400;
   margin: 10px 0 20px 0;
 }
-
-/* Controls the menu buttons collection */
-.main-menu-items {
-  width: 100%;
+/* Controls the main menu */
+.main-menu { /* ?? */
+  width: 50%;
+  padding: 20px 40px 20px 40px;
   margin: auto;
+}
+/* Menu items on landing page */ 
+.menu-items {
+  width: 80%;
+  margin: 5% 0%;
   display: flex;
-  align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
 }
-
-.button {
+.menu-items .button {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   text-align: center;
   color: #444;
 	background-color: transparent;
-	border: 2px solid #444;
+	border: 1.5px solid #444;
 	padding: 14px 20px;
 	margin: 0;
   font-size: 14px;
@@ -80,94 +90,78 @@ body {
   flex-grow: 1;
   flex-basis: 0;
 }
+
+
+/* CONTENT PAGES */
+.content-page-text {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+.heading-text-small {
+  /*padding-top: 50px;
+  padding-bottom: 200px;
+  padding-right: 60px;
+  padding-left: 80px;*/
+  box-sizing: border-box;
+  /*width: 67%;*/
+  float: left;
+  position: relative;
+}
+.heading-text-small h1 {
+  color: #333;
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 10px;
+	text-transform: uppercase;
+}
+/* Menu items on content pages */
+.menu-items-small {
+  width: 100%;
+  margin: 1% 0%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.menu-items-small .button {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #444;
+	background-color: transparent;
+	border: 1.5px solid #444;
+	padding: 10px 10px;
+	margin: 0;
+  font-size: 11px;
+  font-weight: normal;
+	border-radius: 0;
+	margin-top: 10px;
+	margin-right: 10px;
+  transition: all 0.5s;
+  display: inline-block;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
 .button:active {
   background-image: none;
 	outline: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
-.button:hover, .button:focus, .button:active:focus {
+.button:hover, .button:focus, .button:active:focus, #active-item {
   outline: none;
   outline-offset: none;
   color: #eee;
   background-color: #444;
 }
 
-.main-menu {
-  width: 50%;
-  padding: 20px 40px 20px 40px;
-  margin: auto;
+/* Area for the actual content of the content pages */
+.page-content-area {
+  padding-top: 20px;
+  padding-left: 10px;
 }
-
-
-
-/* Controls the size of the circle */
-.circle-container {
-  width: 120px;
-  height: 120px;
-  margin: 20px;
-}
-
-/* Draws the actual circle */
-.circle-main {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  border: 2px solid black;
-  margin: 0;
-  padding: 0;
-}
-
-/* Constrains text area to within the circle */
-.circle-text-container {
-  /* area constrains */
-  width: 70%;
-  height: 70%;
-  max-width: 70%;
-  max-height: 70%;
-  margin: 0 auto;
-  padding: 0;
-
-  /* centers the text area */
-  position: relative;
-  top: 15%; 
-
-  transform-style: preserve-3d;
-}
-
-/* The actual text within the circle, vertically aligned */
-.circle-text {
-  font: 17px;
-  font-weight: 700;
-  text-align: center;
-
-  /* vertical centering */
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-/* Styling of the active menu item */
-#active-item {
-  color: blue;
-}
-
-/* Section page - content that comes under the menu */
-.section-page {
-  width: 50%;
-  padding: 20px 40px 20px 40px;
-  margin: auto;
-  color: grey;
-}
-
-/* Controls the introduction page content area, under the lead text */
-.intro-content-container {
-  width: 100%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-}
-
-

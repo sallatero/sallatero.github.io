@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import MainMenu from './MainMenu'
-import SectionPage from './SectionPage'
+//import SectionPage from './SectionPage'
+import SmallMenu from './SmallMenu'
 
 const App = () => {
   const [page, setPage] = useState(0)
@@ -8,12 +9,11 @@ const App = () => {
   
   return (
     <div>
-    <MainMenu page={page} setPage={setPage}/>
     {page === 0
       ? 
-      <div/>
+      <MainMenu page={page} setPage={setPage}/>
       : 
-      <SectionPage page={page}/>
+      <SmallMenu page={page} setPage={setPage}/>
     } 
     </div>
   )
