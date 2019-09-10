@@ -9,7 +9,7 @@ const About = (props) => {
         <ul>
           <li className='slide-in-top line1'><span><i class="fas fa-map-marker"></i></span>a versatile experience in project work and customer service</li>
           <li className='slide-in-top line2'><span><i class="fas fa-map-marker"></i></span>a passion for self developement. I continuously strive to utilise my potential better. </li> 
-          <li className='slide-in-top line3'><span><i class="fas fa-map-marker"></i></span>a dream is to make people happier by making their every day life easier.This I can do with 
+          <li className='slide-in-top line3'><span><i class="fas fa-map-marker"></i></span>a dream to make people happier by making their every day life easier. This I can do with 
             designing and implementing new digital services and applications.</li></ul>
       </div>
       <p className='fade-in p1'>I have a technical background and started my career in IT consultancy. I gained experience in 

@@ -215,13 +215,7 @@ span {
 	font-weight: 400;
   margin: 10px 0 20px 0;
 }
-/* Controls the main menu */
-/*
-.main-menu { 
-  width: 50%;
-  padding: 20px 40px 20px 40px;
-  margin: auto;
-}*/
+
 /* Menu items on landing page */ 
 .landing-page-text .menu-items {
   width: 85%;
@@ -249,10 +243,6 @@ span {
 	margin-right: 30px;
   transition: all 0.5s;
   display: inline-block;
-  /*
-  flex-grow: 1;
-  flex-basis: 0;
-  */
   flex: 1;
 }
 
@@ -264,12 +254,7 @@ span {
   padding-left: 80px;
 }
 .heading-text-small {
-  /*padding-top: 50px;
-  padding-bottom: 200px;
-  padding-right: 60px;
-  padding-left: 80px;*/
   box-sizing: border-box;
-  /*width: 67%;*/
   float: left;
   position: relative;
 }
@@ -339,11 +324,10 @@ span {
 .lead-text {
   
 }
-.lead-text ul, .experience-text ul {
+ul {
   list-style: none;
-  margin-block-start: 0.2rem;
-  padding-inline-start: 1.5rem;
-  /*  list-style-type: symbols() */
+  margin-block-start: 0.4rem;
+  padding-inline-start: 1.2rem;
 }
 .lead-text li {
   font-size: 1.2rem;
@@ -440,7 +424,7 @@ span {
 .experience-subheading {
   font-size: 1rem;
 }
-.experience-text li {
+.experience-text li, .skills-text li {
   font-size: 1rem; 
   line-height: 1.2rem;
 }
@@ -495,15 +479,16 @@ span {
 }
 
 /* SKILLS */
-#skills {
+.skills-container {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  background-color: aqua;
+/*  background-color: aqua;*/
 }
-/*.skills-text {
-  padding-top: 2%;
-  line-height: 1.5rem;
-}*/
+.skills-text {
+  display: inline-block;
+  padding-inline-end: 25px;
+}
 .skills-heading {
   font-size: 1.5rem;
 }
