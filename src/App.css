@@ -370,7 +370,7 @@ ul {
   100% {
     -webkit-transform: translateY(-50px);
             transform: translateY(-50px);
-    opacity: 0;
+    opacity: 0.5;
   }
 }
 @keyframes slide-out-top {
@@ -382,7 +382,7 @@ ul {
   100% {
     -webkit-transform: translateY(-50px);
             transform: translateY(-50px);
-    opacity: 0;
+    opacity: 0.5;
   }
 }
 
