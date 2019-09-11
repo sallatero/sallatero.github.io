@@ -340,6 +340,9 @@ ul {
   margin-block-start: 1.2rem;
   margin-block-end: 0;
 }
+.story-text .button, .story-invite .button {
+  width: 70px;
+}
 
 /* PORTFOLIO */
 .portfolio-container {
@@ -433,9 +436,13 @@ ul {
 	-webkit-animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
 	        animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
 }
-.slide-in-top.ab-p, .slide-in-top.port-img {
+.slide-in-top.ab-p, .slide-in-top.ab-but, .slide-in-top.port-img {
 	-webkit-animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.6s both;
 	        animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.6s both;
+}
+.slide-in-top.ab-p-2 {
+	-webkit-animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.3s both;
+	        animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.3s both;
 }
 @-webkit-keyframes slide-in-top {
   0% {
