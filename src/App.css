@@ -423,7 +423,7 @@ ul {
 .experience-subheading {
   font-size: 1.2rem;
 }
-.experience-text li, .skills-text li, .education-text li {
+.lead-text li, .experience-text li, .skills-text li, .education-text li, .contact-text li {
   font-size: 1rem; 
   line-height: 1.2rem;
 }
@@ -495,17 +495,9 @@ ul {
 .skills-heading {
   font-size: 2.2rem;
 }
-.skills-text li {
-  font-size: 1rem; 
-  line-height: 1.2rem;
-}
 
 /* EDUCATION */
-/*
-.education-text {
-  padding-top: 2%;
-  line-height: 1.5rem;
-} */
+
 .education-heading {
   font-size: 2.2rem;
 }
