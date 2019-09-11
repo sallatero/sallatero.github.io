@@ -422,6 +422,7 @@ ul {
 }
 .experience-subheading {
   font-size: 1.2rem;
+  color: #999999;
 }
 .lead-text li, .experience-text li, .skills-text li, .education-text li, .contact-text li {
   font-size: 1rem; 
@@ -510,6 +511,7 @@ ul {
 }
 .education-subheading {
   font-size: 1.2rem;
+  color: #999999;
 }
 
 /* CONTACT */
