@@ -486,11 +486,18 @@ ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-/*  background-color: aqua;*/
+  /*align-items: stretch;*/
+  /*background-color: #39ac73;*/
 }
 .skills-text {
-  display: inline-block;
+  /*display: inline-block;*/
   padding-inline-end: 25px;
+}
+.skills-text.big {
+  flex: 1 0 250px;
+}
+.skills-text.small {
+  flex: 1 0 170px;
 }
 .skills-heading {
   font-size: 2.2rem;
@@ -508,4 +515,13 @@ ul {
 /* CONTACT */
 .contact-heading {
   font-size: 2.2rem;
+}
+.contact-text a:link, .contact-text a:visited {
+  text-decoration: none;
+  color: #444;
+  /*font-weight: normal;*/
+  transition: all 0.5s;
+}
+.contact-text a:hover, .contact-text a:active {
+  color: #39ac73;
 }
