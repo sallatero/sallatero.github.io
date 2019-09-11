@@ -323,9 +323,6 @@ span {
 .lead-text-heading {
   font-size: 2.2rem;
 }
-.lead-text {
-  
-}
 ul {
   list-style: none;
   margin-block-start: 0.4rem;
@@ -419,15 +416,12 @@ ul {
 }
 
 /* EXPERIENCE */
-.experience-text {
-  padding-top: 2%;
-  line-height: 1.5rem;
-}
+
 .experience-heading {
-  font-size: 1.5rem;
+  font-size: 2.2rem;
 }
 .experience-subheading {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .experience-text li, .skills-text li, .education-text li {
   font-size: 1rem; 
@@ -499,7 +493,7 @@ ul {
   padding-inline-end: 25px;
 }
 .skills-heading {
-  font-size: 1.5rem;
+  font-size: 2.2rem;
 }
 .skills-text li {
   font-size: 1rem; 
@@ -507,18 +501,19 @@ ul {
 }
 
 /* EDUCATION */
+/*
 .education-text {
   padding-top: 2%;
   line-height: 1.5rem;
-}
+} */
 .education-heading {
-  font-size: 1.5rem;
+  font-size: 2.2rem;
 }
 .education-subheading {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 /* CONTACT */
 .contact-heading {
-  font-size: 1.5rem;
+  font-size: 2.2rem;
 }
