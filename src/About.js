@@ -8,9 +8,9 @@ const About = (props) => {
       <div className='lead-text'>
         <div className='lead-text-heading tracking-in-expand'>Multitalented IT engineer with </div>
         <ul>
-          <li className='slide-in-top ab'><span><i class="fas fa-map-marker"></i></span>a versatile experience in project work and customer service</li>
-          <li className='slide-in-top ab'><span><i class="fas fa-map-marker"></i></span>a passion for self developement. I continuously strive to utilise my potential better. </li> 
-          <li className='slide-in-top ab'><span><i class="fas fa-map-marker"></i></span>a dream to make people happier by making their every day life easier. This I can do with 
+          <li className='slide-in-top ab'><span><i className="fas fa-map-marker"></i></span>a versatile experience in project work and customer service</li>
+          <li className='slide-in-top ab'><span><i className="fas fa-map-marker"></i></span>a passion for self developement. I continuously strive to utilise my potential better. </li> 
+          <li className='slide-in-top ab'><span><i className="fas fa-map-marker"></i></span>a dream to make people happier by making their every day life easier. This I can do with 
             designing and implementing new digital services and applications.</li></ul>
       </div>
       <Story />

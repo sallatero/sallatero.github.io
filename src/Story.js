@@ -9,6 +9,7 @@ const Story = (props) => {
     const bool = storyVisible
     setStoryVisible(!bool)
   }*/
+  /*
   if (storyVisible === null) {
     return (
       <div className='story-invite'>
@@ -16,34 +17,50 @@ const Story = (props) => {
         <div className='button slide-in-top ab-but' onClick={() => setStoryVisible(true)}>Read more</div>
       </div>
     )
-  }
+  }*/
+  console.log('storyVisible: ', storyVisible)
 
   return (
     <div className='story-container'>
-    {
-    storyVisible
-    ?
-    <div className='story-text'>
-      <IntroParagraph /> 
-      <div className='button slide-in-top ab-but' onClick={() => setStoryVisible(false)}>Read less</div>
+      <div className='story-invite'>
+        <IntroParagraph />
+        <ToggleButton storyVisible={storyVisible} setStoryVisible={setStoryVisible}/>
+      </div>
+      {
+      storyVisible === true 
+      ? 
       <MainParagraphs class='in'/>
-    </div>
-    :
-    <div className='story-invite'>
-      <IntroParagraph /> 
-      <div className='button slide-in-top ab-but' onClick={() => setStoryVisible(true)}>Read more</div>
+      : <div/>
+      }
+      {
+      storyVisible === false
+      ?
       <MainParagraphs class='out'/>
-    </div>
-    }
+      : <div/>
+      }
     </div>
   )
 }
+
+export const ToggleButton = (props) => {
+
+  if (props.storyVisible) {
+    return (
+      <div className='button slide-in-top ab-but' onClick={() => props.setStoryVisible(false)}>Read less</div>
+    )
+  } else {
+    return (
+      <div className='button slide-in-top ab-but' onClick={() => props.setStoryVisible(true)}>Read more</div>
+    )
+  }
+}
+
 
 export const MainParagraphs = (props) => {
   let classText = null
   if (props.class === 'out') {
     classText = 'slide-out-top'
-  } else if (props.class == 'in') {
+  } else if (props.class === 'in') {
     classText = 'slide-in-top ab-p-2'
   }
 
