@@ -24,7 +24,7 @@ const Portfolio = (props) => {
         <p></p>
       </div>
       <div className='portfolio-container'>
-        <div className='fade-in hover-item'>
+        <div className='slide-in-top port-img hover-item'>
           <div className='hover-text'>
             <h4>Library app</h4>
             <p className='hover-text-p'>React, Node.js,</p>
@@ -34,7 +34,7 @@ const Portfolio = (props) => {
             <img src={small_1} className='image-responsive' alt='Library app' /> 
           </a>
         </div>
-        <div className='fade-in hover-item'>
+        <div className='slide-in-top port-img hover-item'>
           <div className='hover-text'>
               <h4>Bloglist app</h4>
               <p className='hover-text-p'>React, Node.js, Express</p>
@@ -46,7 +46,7 @@ const Portfolio = (props) => {
         </div>
       </div>
       <div className='portfolio-container'>
-        <div className='fade-in hover-item'>
+        <div className='slide-in-top port-img hover-item'>
           <div className='hover-text'>
             <h4>Puhelinluettelo</h4>
             <p className='hover-text-p'>React, Node.js, JavaScript</p>
