@@ -8,7 +8,7 @@ body {
   min-height: 700px;
   padding: 0;
   margin: 0px;
-  background-color: white;
+  background-color: #b8bbc7;
   -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -19,7 +19,7 @@ body {
   width: 100%;
   height: 100%;
   min-height: 700px;
-  background: linear-gradient(to right, rgba(255,255,255,0.6) 10%, 30%, rgba(213,218,222,0.3) 90%), url(./images/BG_img_3a.jpg) no-repeat right top;
+  background: linear-gradient(to right, rgba(255,255,255,0.8) 10%, 30%, rgba(213,218,222,0.3) 90%), url(./images/BG_img_3a.jpg) no-repeat right top;
   display: table;
 }
 /* Area for text content on the site */
@@ -319,7 +319,6 @@ span {
 /* ABOUT */
 .lead-text-heading {
   font-size: 2.2rem;
-/*  font-weight: lighter;*/
 }
 .lead-text {
   
@@ -359,6 +358,9 @@ ul {
   align-items: stretch;
   padding: 0;
   box-sizing: inherit;
+}
+.portfolio-heading {
+  font-size: 2.2rem;
 }
 .hover-item {
   position: relative;
@@ -429,7 +431,7 @@ ul {
   line-height: 1.2rem;
 }
 
-.slide-in-top.exp, .slide-in-top.port, .slide-in-top.skil, .slide-in-top.edu {
+.slide-in-top.exp, .slide-in-top.port, .slide-in-top.skil, .slide-in-top.edu, .slide-in-top.cont {
 	-webkit-animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
 	        animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
 }
@@ -507,4 +509,9 @@ ul {
 }
 .education-subheading {
   font-size: 1rem;
+}
+
+/* CONTACT */
+.contact-heading {
+  font-size: 1.5rem;
 }

@@ -16,8 +16,8 @@ const Portfolio = (props) => {
   
   return (
     <div id='portfolio'>
-      <div className='lead-text'>
-        <div className='experience-heading tracking-in-expand'>Modern Web Development</div>
+      <div className='portfolio-text'>
+        <div className='portfolio-heading tracking-in-expand'>Modern Web Development</div>
         <p className='slide-in-top port'>Here are some of my apps that I have built with modern web technologies. 
           Clicking an app takes you to the respective Github repository, where you can 
           see the code as well as get the link to the live app. </p>
