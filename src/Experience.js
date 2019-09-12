@@ -21,7 +21,7 @@ const Experience = (props) => {
           <li className='slide-in-top exp line3'><span><i class="fas fa-map-marker"></i></span>Managing small projects and overseeing provider work in client-facing role</li></ul>
       </div>
       <div className='experience-text'>
-        <div className='experience-heading tracking-in-expand'>Self employed </div>
+        <div className='experience-heading tracking-in-expand'>Entrepreneur </div>
         <div className='experience-subheading tracking-in-expand'>Wellness and Group Fitness Coach, Feb 2006 - Dec 2014 </div>
         <ul>
           <li className='slide-in-top exp line1'><span><i class="fas fa-map-marker"></i></span>Designing and instructing group fitness classes</li>

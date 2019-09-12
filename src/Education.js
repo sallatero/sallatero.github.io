@@ -4,14 +4,6 @@ const Education = (props) => {
   
   return (
     <div id='education'>
-      <div className='eduxation-text'>
-        <div className='education-heading tracking-in-expand'>Aalto University </div>
-        <div className='education-subheading tracking-in-expand'>Master of Science (Tech.), Graduated April 2010 </div>
-        <ul>
-          <li className='slide-in-top edu'><span><i class="fas fa-map-marker"></i></span>Major in Media Technology</li>
-          <li className='slide-in-top edu'><span><i class="fas fa-map-marker"></i></span>Minor in Data Communications Software </li> 
-        </ul>
-      </div>
       <div className='education-text'>
         <div className='education-heading tracking-in-expand'>Helsinki University </div>
         <div className='education-subheading tracking-in-expand'>Fullstack MOOC, Spring 2019 </div>
@@ -19,6 +11,14 @@ const Education = (props) => {
           <li className='slide-in-top edu'><span><i class="fas fa-map-marker"></i></span>8 cr course offered by Open University</li>
           <li className='slide-in-top edu'><span><i class="fas fa-map-marker"></i></span>Deep dive into modern Web Application Development </li> 
           <li className='slide-in-top edu'><span><i class="fas fa-map-marker"></i></span>Emphasis on Single Page Apps developed with JavaScript</li></ul>
+      </div>
+      <div className='eduxation-text'>
+        <div className='education-heading tracking-in-expand'>Aalto University </div>
+        <div className='education-subheading tracking-in-expand'>Master of Science (Tech.), Graduated April 2010 </div>
+        <ul>
+          <li className='slide-in-top edu'><span><i class="fas fa-map-marker"></i></span>Major in Media Technology</li>
+          <li className='slide-in-top edu'><span><i class="fas fa-map-marker"></i></span>Minor in Data Communications Software </li> 
+        </ul>
       </div>
       <div className='education-text'>
         <div className='education-heading tracking-in-expand'>Helsinki School of Economics</div>
