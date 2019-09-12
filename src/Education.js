@@ -28,6 +28,10 @@ const Education = (props) => {
           <li className='slide-in-top edu'><span><i class="fas fa-map-marker"></i></span>Combining business, design and technological perspectives in solving digital business problems in a multidisciplinary team</li> 
         </ul>
       </div>
+      <div className='education-text'>
+        <div className='education-heading tracking-in-expand'>Tapiolan lukio </div>
+        <div className='education-subheading tracking-in-expand'>Matriculation Examination, 2002 </div>
+      </div>
     </div>
   )
 

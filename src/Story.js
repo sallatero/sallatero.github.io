@@ -67,34 +67,32 @@ export const MainParagraphs = (props) => {
   return (
     <div className={classText}>
       <p>
-        While working as an IT consultant I gained experience in different 
-        kinds of IT services projects in a multicultural environment. I got 
-        to work with all phases of a client project, from proposals to delivery. 
-        I developed my expertise in requirements gathering, process modeling, 
-        different software products, as well as in working with different kinds 
-        of teams and organizations.
+        While working as an IT consultant I gained experience in different kinds of IT 
+        services projects in a multicultural environment. I got to work with all phases 
+        of a client project, from proposals to delivery. I developed my expertise in 
+        requirements gathering, process modeling, different software products, as well 
+        as in working with different kinds of teams and organizations. My skills in 
+        problem-solving, analytical thinking and team work grew considerably.
       </p>
       <p>
-        Running my own health and fitness coaching business was very inspiring, 
-        and I enjoyed the freedom to do things my way. I got to utilize my 
-        organizational skills, creative mind and resilience. What drove me forward 
-        was the energy and motivation I got from doing something that was very 
-        meaningful to me personally. 
+        After a few years my personal interests led me to a more entrepreneurial path. 
+        I ran my own health coaching business and later on worked in real estate. During 
+        this phase I got to utilize my organizational skills, creative mind and resilience. 
+        I learned to value the ability to utilize my strengths and the freedom of doing things my way.
+        I enjoyed being able to immerse myself totally in my work, to create a state of flow. 
+        What didn't suit me, however, was the uncertainty of the next paycheck and the heavy 
+        emphasis on new customer acquisition. So there was again need for change.
       </p>
       <p>
-        As a real estate agent I got to work independently, a bit like an entrepreneur. 
-        The work offered a lot of freedom and responsibility, which I enjoyed. I got 
-        to utilize my analytical thinking and precision with the law aspects as well 
-        as my eye for esthetics in home styling and marketing. During the years as a 
-        realtor I learned a lot about myself. I came to understand that I am very 
-        empathetic and a good listener, and that building trust comes naturally to me. 
-      </p>
-      <p>
-        My winding path has given me clarity of who I am, what drives me, what 
-        inspires me, and what my strengths are. The best way I can combine my 
-        problem-solving skills, preciseness, creativity, and my esthetic eye, is to 
-        continue my path in IT, more specifically in web development. I have great 
-        motivation to learn and challenge myself and am ready to work hard for my dream. 
+        I asked myself what are my biggest strengths, what drives and inspires me and 
+        what kind of environment allows me to shine. I understood that I need to be able 
+        to utilize my problem-solving skills, preciseness, creativity, and my esthetic eye. 
+        I need to be able to get into the flow once in a while and get frequent feedback 
+        and feelings of success. In addition, I need an open and supportive working 
+        environment that values my uniqueness. Therefore, considering my background and 
+        expertise I believe my sweet spot is in IT, more specifically in web development. 
+        I have already started my coding path and I have great motivation to put my skills 
+        into practice. I am ready to challenge myself and work hard for my dream.
       </p>
     </div>
   )

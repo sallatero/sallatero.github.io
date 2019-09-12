@@ -26,6 +26,7 @@ const Skills = (props) => {
             <li className='slide-in-top skil'><span><i class="fas fa-map-marker"></i></span>Presentation skills</li> 
             <li className='slide-in-top skil'><span><i class="fas fa-map-marker"></i></span>Troubleshooting</li> 
             <li className='slide-in-top skil'><span><i class="fas fa-map-marker"></i></span>Problem-solving</li> 
+            <li className='slide-in-top skil'><span><i class="fas fa-map-marker"></i></span>Analytical thinking</li> 
           </ul>
         </div>
         <div className='skills-text big'>
