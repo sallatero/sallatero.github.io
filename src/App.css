@@ -247,6 +247,7 @@ span {
   transition: all 0.5s;
   display: inline-block;
   flex: 1;
+  cursor: pointer;
 }
 
 
@@ -298,6 +299,7 @@ span {
   display: inline-block;
   flex-grow: 1;
   flex-basis: 0;
+  cursor: pointer;
 }
 
 .button:active {

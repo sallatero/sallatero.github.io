@@ -8,7 +8,7 @@ const SmallMenu = (props) => {
     <div className='canvas'>
       <div className='canvas-text-area'>
         <div className='content-page-text'>
-          <div className='heading-text-small'>
+          <div className='heading-text-small' onClick={() => props.setPage(0)}>
             <h1><span>Salla</span> Tero-Anandamurthy</h1>
           </div>
           <MenuItems page={props.page} setPage={props.setPage}/>
