@@ -5,11 +5,13 @@ import small_2 from './images/02-small-b.jpg'
 import small_3 from './images/03-small-b.jpg'
 import small_4 from './images/04-small.jpg'
 import small_5 from './images/05-small.jpg'
+import small_6 from './images/Finn_UI.jpg'
 
 const libraryUrl = 'https://github.com/sallatero/Full-Stack/tree/master/library-frontend'
 const bloglistUrl = 'https://github.com/sallatero/Ultimate-webpack-bloglist-frontend'
 const puhelinUrl = 'https://github.com/sallatero/Full-Stack/tree/master/osa2/puhelinluettelo'
 const resumeUrl = 'https://github.com/sallatero/sallatero.github.io'
+const finnUrl = 'https://github.com/sallatero/Finn-the-Tutor_Frontend'
 const fullstackUrl = 'https://github.com/sallatero/Full-Stack'
 const linkedinUrl = 'https://www.linkedin.com/in/sallatero/'
 const facebookUrl = 'https://www.facebook.com/salla.tero'
@@ -25,6 +27,30 @@ const Portfolio = (props) => {
           see the code as well as get the link to the live app. </p>
         <p></p>
       </div>
+
+      <div className='portfolio-container'>
+        <div className='slide-in-top port-img hover-item'>
+          <div className='hover-text'>
+            <h4>Online Resume</h4>
+            <p className='hover-text-p'>React, HTML, CSS</p>
+          </div>
+          <a href={resumeUrl} className='portfolio-image'
+            rel='noopener noreferrer' target='_blank'>
+            <img src={small_5} className='image-responsive' alt='Online resume app' /> 
+          </a>
+        </div>
+        <div className='slide-in-top port-img hover-item'>
+          <div className='hover-text'>
+            <h4>Finn the Tutor</h4>
+            <p className='hover-text-p'>Under construction</p>
+          </div>
+          <a href={finnUrl} className='portfolio-image'
+            rel='noopener noreferrer' target='_blank'>
+            <img src={small_6} className='image-responsive' alt='Finn the Tutor -sovellus' /> 
+          </a>
+        </div>
+      </div>
+
       <div className='portfolio-container'>
         <div className='slide-in-top port-img hover-item'>
           <div className='hover-text'>
@@ -61,17 +87,8 @@ const Portfolio = (props) => {
             <img src={small_3} className='image-responsive' alt='Puhelinluettelo-sovellus' /> 
           </a>
         </div>
-        <div className='slide-in-top port-img hover-item'>
-          <div className='hover-text'>
-            <h4>Online Resume</h4>
-            <p className='hover-text-p'>React, HTML, CSS</p>
-          </div>
-          <a href={resumeUrl} className='portfolio-image'
-            rel='noopener noreferrer' target='_blank'>
-            <img src={small_5} className='image-responsive' alt='Online resume app' /> 
-          </a>
-        </div>
       </div>
+
     </div>
   )
 
