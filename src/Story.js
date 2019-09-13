@@ -1,24 +1,7 @@
 import React, { useState } from 'react'
 
 const Story = (props) => {
-  //const [storyVisible, setStoryVisible] = useState(false)
   const [storyVisible, setStoryVisible] = useState(null)
-
-  /*
-  const toggleVisibility = () => {
-    const bool = storyVisible
-    setStoryVisible(!bool)
-  }*/
-  /*
-  if (storyVisible === null) {
-    return (
-      <div className='story-invite'>
-        <IntroParagraph />
-        <div className='button slide-in-top ab-but' onClick={() => setStoryVisible(true)}>Read more</div>
-      </div>
-    )
-  }*/
-  console.log('storyVisible: ', storyVisible)
 
   return (
     <div className='story-container'>
@@ -89,10 +72,8 @@ export const MainParagraphs = (props) => {
         to utilize my problem-solving skills, preciseness, creativity, and my esthetic eye. 
         I need to be able to get into the flow once in a while and get frequent feedback 
         and feelings of success. In addition, I need an open and supportive working 
-        environment that values my uniqueness. Therefore, considering my background and 
-        expertise I believe my sweet spot is in IT, more specifically in web development. 
-        I have already started my coding path and I have great motivation to put my skills 
-        into practice. I am ready to challenge myself and work hard for my dream.
+        environment that supports my professional development. Considering all of this, 
+        I believe my sweet spot is in IT, building digital services and applications.
       </p>
     </div>
   )
