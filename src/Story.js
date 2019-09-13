@@ -63,8 +63,8 @@ export const MainParagraphs = (props) => {
         this phase I got to utilize my organizational skills, creative mind and resilience. 
         I learned to value the ability to utilize my strengths and the freedom of doing things my way.
         I enjoyed being able to immerse myself totally in my work, to create a state of flow. 
-        What didn't suit me, however, was the uncertainty of the next paycheck and the heavy 
-        emphasis on new customer acquisition. So there was again need for change.
+        What didn't suit me, however, was the heavy emphasis on new customer acquisition. I would have 
+        wanted to focus on taking care of the current client assignments. So there was again need for change.
       </p>
       <p>
         I asked myself what are my biggest strengths, what drives and inspires me and 
