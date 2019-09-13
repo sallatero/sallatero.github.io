@@ -4,10 +4,12 @@ import small_1 from './images/01-small-b.jpg'
 import small_2 from './images/02-small-b.jpg'
 import small_3 from './images/03-small-b.jpg'
 import small_4 from './images/04-small.jpg'
+import small_5 from './images/05-small.jpg'
 
 const libraryUrl = 'https://github.com/sallatero/Full-Stack/tree/master/library-frontend'
 const bloglistUrl = 'https://github.com/sallatero/Ultimate-webpack-bloglist-frontend'
 const puhelinUrl = 'https://github.com/sallatero/Full-Stack/tree/master/osa2/puhelinluettelo'
+const resumeUrl = 'https://github.com/sallatero/sallatero.github.io'
 const fullstackUrl = 'https://github.com/sallatero/Full-Stack'
 const linkedinUrl = 'https://www.linkedin.com/in/sallatero/'
 const facebookUrl = 'https://www.facebook.com/salla.tero'
@@ -30,7 +32,8 @@ const Portfolio = (props) => {
             <p className='hover-text-p'>React, Node.js,</p>
             <p className='hover-text-p'> GraphQL, Apollo, MongoDB</p>
           </div>
-          <a href={libraryUrl} className='portfolio-image'>
+          <a href={libraryUrl} className='portfolio-image'
+            rel='noopener noreferrer' target='_blank'>
             <img src={small_1} className='image-responsive' alt='Library app' /> 
           </a>
         </div>
@@ -40,7 +43,8 @@ const Portfolio = (props) => {
               <p className='hover-text-p'>React, Node.js, Express</p>
               <p className='hover-text-p'>Redux, Webpack, Semantic UI</p>
             </div>
-            <a href={bloglistUrl} className='portfolio-image'>
+            <a href={bloglistUrl} className='portfolio-image'
+              rel='noopener noreferrer' target='_blank'>
               <img src={small_2} className='image-responsive' alt='Bloglist app' />   
             </a>
         </div>
@@ -52,8 +56,19 @@ const Portfolio = (props) => {
             <p className='hover-text-p'>React, Node.js, JavaScript</p>
             <p className='hover-text-p'> Axios, Semantic UI React</p>
           </div>
-          <a href={puhelinUrl} className='portfolio-image'>
+          <a href={puhelinUrl} className='portfolio-image'
+            rel='noopener noreferrer' target='_blank'>
             <img src={small_3} className='image-responsive' alt='Puhelinluettelo-sovellus' /> 
+          </a>
+        </div>
+        <div className='slide-in-top port-img hover-item'>
+          <div className='hover-text'>
+            <h4>Online Resume</h4>
+            <p className='hover-text-p'>React, HTML, CSS</p>
+          </div>
+          <a href={resumeUrl} className='portfolio-image'
+            rel='noopener noreferrer' target='_blank'>
+            <img src={small_5} className='image-responsive' alt='Online resume app' /> 
           </a>
         </div>
       </div>
