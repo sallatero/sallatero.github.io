@@ -261,6 +261,7 @@ span {
   box-sizing: border-box;
   float: left;
   position: relative;
+  cursor: pointer;
 }
 .heading-text-small h1 {
   color: #333;
