@@ -2,6 +2,8 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
 
 import small_1 from './images/01-small-b.jpg'
 import small_2 from './images/02-small-b.jpg'
@@ -33,16 +35,14 @@ const Portfolio = (props) => {
       </Row>
       <Row>
         <Col>
-          <div className='slide-in-top port-img hover-item'>
-            <div className='hover-text'>
-              <h4>Online Resume</h4>
-              <p className='hover-text-p'>React, HTML, CSS</p>
-            </div>
-            <a href={resumeUrl} className='portfolio-image'
-              rel='noopener noreferrer' target='_blank'>
-              <img src={small_5} className='image-responsive' alt='Online resume app' /> 
-            </a>
-          </div>
+          <Card>
+            <Card.Img variant='top' src={small_5}/>
+            <Card.Body>
+              <Card.Title>Online Resume</Card.Title>
+              <Card.Text>React, HTML, CSS</Card.Text>
+              <Button variant='primary' href={resumeUrl}>Go see</Button>
+            </Card.Body>
+          </Card>
         </Col>
         <Col>
           <div className='slide-in-top port-img hover-item'>
