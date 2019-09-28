@@ -1,42 +1,46 @@
 import React from 'react'
+import Button from 'react-bootstrap/Button'
+import ButtonToolbar from 'react-bootstrap/ButtonToolbar'
+//import './custom.scss'
 
 const MenuItems = (props) => {
 
-  const classFor = (pageNr) => {
+  const isActive = (pageNr) => {
     if (props.page === pageNr) {
-      return 'active-item'
+      return true
     } else {
-      return 'item'
+      return false
     }
   }
 
+
   return (
-    <div className='menu-items'>
-      <div className='button' id={classFor(1)} 
-        onClick={() => props.setPage(1)}>
-        About me
-      </div>
-      <div className='button' id={classFor(2)} 
-        onClick={() => props.setPage(2)}>
-        Portfolio
-      </div>
-      <div className='button' id={classFor(3)} 
-        onClick={() => props.setPage(3)}>
-        Experience
-      </div>
-      <div className='button' id={classFor(4)} 
-        onClick={() => props.setPage(4)}>
-        Skills
-      </div>
-      <div className='button' id={classFor(5)} 
-        onClick={() => props.setPage(5)}>
-        Education
-      </div>
-      <div className='button' id={classFor(6)} 
-        onClick={() => props.setPage(6)}>
-        Contact
-      </div>
-    </div>
+    <ButtonToolbar>
+        <Button variant='outline-dark' active={isActive(1)}
+          onClick={() => props.setPage(1)}>
+          About me
+        </Button>
+        <Button variant='outline-dark' active={isActive(2)}
+          onClick={() => props.setPage(2)}>
+          Portfolio
+        </Button>
+        <Button variant='outline-dark' active={isActive(3)}
+          onClick={() => props.setPage(3)}>
+          Experience
+        </Button>
+        <Button variant='outline-dark' active={isActive(4)}
+          onClick={() => props.setPage(4)}>
+          Skills
+        </Button>
+        <Button variant='outline-dark' active={isActive(5)}
+          onClick={() => props.setPage(5)}>
+          Education
+        </Button>
+        <Button variant='outline-dark' active={isActive(6)}
+          onClick={() => props.setPage(6)}>
+          Contact
+        </Button>
+    </ButtonToolbar>
   )
 }
 
